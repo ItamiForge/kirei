@@ -1,0 +1,40 @@
+[package]
+name = "kirei"
+version = "0.1.0"
+edition = "2021"
+authors = ["ItamiForge"]
+description = "A fast, safe, and beautiful macOS system cleaner for developers"
+readme = "README.md"
+homepage = "https://itamiforge.github.io/itamiforge/docs/projects/kirei"
+repository = "https://github.com/ItamiForge/kirei"
+license = "MIT"
+keywords = ["macos", "cleaner", "tui", "developer-tools", "disk-space"]
+categories = ["command-line-utilities", "development-tools"]
+rust-version = "1.70"
+
+[lib]
+name = "kirei"
+path = "src-core/lib.rs"
+
+[[bin]]
+name = "kirei"
+path = "src-core/main.rs"
+
+[dependencies]
+ratatui = "0.29"
+crossterm = "0.28"
+anyhow = "1.0"
+clap = { version = "4", features = ["derive"] }
+directories = "5.0"
+sysinfo = "0.32"
+trash = "3.2"
+human_bytes = "0.4"
+tokio = { version = "1", features = ["full"] }
+ignore = "0.4"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1.0"
+walkdir = "2"
+chrono = "0.4"
+colored = "2"
+futures = "0.3"
+fs_extra = "1.3"
