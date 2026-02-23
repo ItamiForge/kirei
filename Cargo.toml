@@ -25,7 +25,7 @@ ratatui = "0.29"
 crossterm = "0.28"
 anyhow = "1.0"
 clap = { version = "4", features = ["derive"] }
-directories = "5.0"
+directories = "6.0"
 sysinfo = "0.32"
 trash = "3.2"
 human_bytes = "0.4"
