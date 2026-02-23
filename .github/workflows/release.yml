@@ -48,7 +48,7 @@ jobs:
           path: ./artifacts
       
       - name: Create Release
-        uses: softprops/action-gh-release@v1
+        uses: softprops/action-gh-release@v2
         with:
           files: ./artifacts/kirei-${{ github.ref_name }}-macos-x86_64.tar.gz
           generate_release_notes: true
