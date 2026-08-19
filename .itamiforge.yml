@@ -1,0 +1,14 @@
+catalog: true
+slug: kirei
+title: Kirei
+summary: Fast, safe macOS cleaner with CLI and TUI workflows for developer machines.
+status: active
+category: desktop
+featured: true
+visibility: public
+tags:
+  - rust
+  - macos
+  - tui
+  - cleaner
+install: cargo install --git https://github.com/ItamiForge/kirei.git
