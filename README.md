@@ -2,6 +2,8 @@
 
 A fast, safe, and beautiful macOS system cleaner built in Rust. It helps developers reclaim disk space by identifying and removing cache files, build artifacts, and logs that accumulate over time.
 
+> Catalog: [ItamiForge](https://itamiforge.github.io/itamiforge/docs/projects/#kirei)
+
 ## 🚀 Features
 
 - **Developer Tools**: Deep cleaning for:
@@ -19,9 +21,14 @@ A fast, safe, and beautiful macOS system cleaner built in Rust. It helps develop
 ## 📦 Installation
 
 ```bash
-# From source
-git clone https://github.com/varunv/tools.git
-cd tools/kirei
+cargo install --git https://github.com/ItamiForge/kirei.git
+```
+
+Or from a local clone:
+
+```bash
+git clone https://github.com/ItamiForge/kirei.git
+cd kirei
 cargo install --path .
 ```
 
