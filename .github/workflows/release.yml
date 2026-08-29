@@ -27,7 +27,7 @@ jobs:
           tar -czf kirei-${{ github.ref_name }}-macos-x86_64.tar.gz kirei
       
       - name: Upload binary
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v6
         with:
           name: kirei-macos
           path: target/release/kirei-${{ github.ref_name }}-macos-x86_64.tar.gz
