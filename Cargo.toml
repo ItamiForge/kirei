@@ -21,7 +21,7 @@ name = "kirei"
 path = "src-core/main.rs"
 
 [dependencies]
-ratatui = "0.29"
+ratatui = "0.30"
 crossterm = "0.28"
 anyhow = "1.0"
 clap = { version = "4", features = ["derive"] }
